@@ -2,7 +2,7 @@ import React from 'react'
 import { View, StyleSheet, Platform, StatusBar } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { Navigator, Screen } from './navigation'
-import screens from './screens'
+import screens from './package'
 
 export default () => {
   return (
